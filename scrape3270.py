@@ -1,10 +1,10 @@
 #
-# Sample 3270 screen scraping using py3270 API
+# Sample 3270 screen scraping using py3270 library
 #
 import time, sys
 from py3270 import Emulator
 
-delayt = 1    # In sec, slowing down to be able screen update
+delayt = 1    # In sec, slowing down to be able to see the screen update
 mylogin = 'HERC04'
 mypass = 'PASS4U'
 myhost = '192.168.1.100:3270'
